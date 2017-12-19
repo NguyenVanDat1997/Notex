@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="NameBar"
+        android:summary="Set Your Name Apps"
+        android:title="Name"/>
+    <ListPreference
+        android:key="sort_order"
+        android:title="Sort"
+        android:summary="Choose the order the list uses"
+        android:entries="@array/sort_name"
+        android:entryValues="@array/sort_clause"
+        android:dialogTitle="Choose a sort order" />
+</PreferenceScreen>
